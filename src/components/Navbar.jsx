@@ -41,7 +41,7 @@ function Navbar() {
     </BootstrapNavbar>
   )
 }
-
+// function for customizing the navigation items (NavItem) in the navbar
 function NavItem({ to, icon, text, className = '' }) {
   return (
     <Nav.Link 
