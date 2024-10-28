@@ -17,6 +17,9 @@ function App() {
       <Route path="/register" element={<RegistrationForm />} />
         <Route path="/login" element={<LoginForm
         user={user} assignUser = {assignUser} />} />
+         <Route path="/post/:id" element={<SingleGlobalPost />} />
+         <Route path="/users" element={<Users />} />
+         <Route path="/profile/:id" element={<Profile />} />
       </Routes>
     </div>
   )
